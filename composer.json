@@ -1,0 +1,35 @@
+{
+    "name": "sprintf/entity-card-bundle",
+    "description": "Symfony Entity Card Bundle by Sprint-F.RU",
+    "license": "BSD-3-Clause",
+    "type": "symfony-bundle",
+    "keywords": [
+    ],
+    "authors": [
+        {
+            "name": "Albert Stepantsev",
+            "email": "albert.stepantsev@sprintf.ru"
+        }
+    ],
+    "homepage": "https://sprintf.ru",
+    "require": {
+        "php": "^8.3",
+        "sprintf/symfony-metadata-loader": "*",
+        "symfony/http-kernel": "7.4 || ^8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.90"
+    },
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "SprintF\\Bundle\\EntityCard\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        },
+        "sort-packages": true
+    }
+}
