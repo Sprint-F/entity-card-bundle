@@ -16,6 +16,7 @@
         "php": "^8.3",
         "sprintf/symfony-metadata-loader": "*",
         "sprintf/value-objects": "*",
+        "symfony/dependency-injection": "7.4 || ^8.0",
         "symfony/http-kernel": "7.4 || ^8.0",
         "symfony/property-access": "7.4 || ^8.0"
     },

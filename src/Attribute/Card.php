@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Common\EntityCard\Attribute;
+namespace SprintF\Bundle\EntityCard\Attribute;
 
 use SprintF\Metadata\Mapping\Attribute\MetadataAttribute;
 
