@@ -15,7 +15,9 @@
     "require": {
         "php": "^8.3",
         "sprintf/symfony-metadata-loader": "*",
-        "symfony/http-kernel": "7.4 || ^8.0"
+        "sprintf/value-objects": "*",
+        "symfony/http-kernel": "7.4 || ^8.0",
+        "symfony/property-access": "7.4 || ^8.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.90"
