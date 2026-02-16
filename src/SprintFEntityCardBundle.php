@@ -19,4 +19,9 @@ class SprintFEntityCardBundle extends AbstractBundle
     {
         $container->import('../config/services.yaml');
     }
+
+    public function prependExtension(ContainerConfigurator $container, ContainerBuilder $builder): void
+    {
+        $container->import('../config/packages/twig_component.yaml');
+    }
 }
