@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Common\EntityCard\Component;
+namespace SprintF\Bundle\EntityCard\Component;
 
 use SprintF\Bundle\EntityCard\Mapping\ClassMetadata;
 use SprintF\Bundle\EntityCard\Mapping\Factory\ClassMetadataFactory;
